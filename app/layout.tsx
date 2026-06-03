@@ -1,16 +1,87 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const siteUrl = "https://mappa-di-roma-web.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mappa-di-roma.vercel.app"),
-  title: "Mappa di Roma — Your Cultural Guide to Rome",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Mappa di Roma — Cultural Guide to Rome for International Students",
+    template: "%s | Mappa di Roma",
+  },
   description:
-    "Discover Rome's hidden art scene, cultural events, and local gems. A community-driven guide for international students and curious visitors.",
+    "Free illustrated scrapbook guide to Rome's art, culture, and hidden gems. Hand-drawn neighborhood maps, local addresses, and community-driven events — designed for Erasmus students, exchange programs, and curious visitors in Rome.",
+  keywords: [
+    "Rome cultural guide",
+    "Mappa di Roma",
+    "Rome art guide",
+    "Erasmus Rome",
+    "international students Rome",
+    "Rome neighborhoods guide",
+    "Rome scrapbook",
+    "Rome illustrated map",
+    "cultural events Rome",
+    "free Rome guide",
+    "Rome hidden gems",
+    "Rome galleries",
+    "Rome art scene",
+    "study abroad Rome",
+    "Rome travel journal",
+    "Rome scrapbooking",
+    "guida culturale Roma",
+    "art galleries Rome",
+    "Rome museum guide",
+    "Rome student guide",
+    "Trastevere guide",
+    "Foro Romano guide",
+    "Rome booklet",
+    "community cultural guide",
+    "Rome local tips",
+    "Rome Business School",
+  ],
+  authors: [{ name: "Mappa di Roma Team — Rome Business School" }],
+  creator: "Mappa di Roma",
+  publisher: "Mappa di Roma",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Mappa di Roma",
-    description: "Your cultural guide to Rome's art scene — for international students and curious visitors.",
+    type: "website",
+    locale: "en_US",
+    alternateLocale: ["it_IT", "fr_FR"],
+    url: siteUrl,
+    siteName: "Mappa di Roma",
+    title: "Mappa di Roma — Free Cultural Guide to Rome",
+    description:
+      "Discover Rome's hidden art scene with hand-illustrated neighborhood maps, local addresses, and community contests. Free illustrated guide for Erasmus students and visitors.",
+    images: [
+      {
+        url: "/example.jpeg",
+        width: 1200,
+        height: 850,
+        alt: "Mappa di Roma — hand-illustrated guide page showing Foro Romano neighborhood with map, addresses, and travel notes",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mappa di Roma — Free Cultural Guide to Rome",
+    description:
+      "Hand-illustrated neighborhood maps, cultural events, and local gems for international students in Rome. Download free.",
     images: ["/example.jpeg"],
   },
+  alternates: {
+    canonical: siteUrl,
+  },
+  category: "travel",
 };
 
 export default function RootLayout({

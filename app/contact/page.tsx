@@ -1,4 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Contact & Partnerships",
+  description:
+    "Partner with Mappa di Roma — join as a distribution partner (Type-A) or cultural venue (Type-B). Launch your own illustrated cultural guide in your city. Contact us for collaboration opportunities.",
+  alternates: {
+    canonical: "https://mappa-di-roma-web.vercel.app/contact",
+  },
+};
 
 const EMAIL = "bpierre@student.romebusinessschool.com";
 
