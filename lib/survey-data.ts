@@ -1,0 +1,63 @@
+export const surveyData = {
+  totalResponses: 490,
+  studentTypes: [
+    { name: "Erasmus exchange", value: 215, pct: 43 },
+    { name: "Full-degree intl.", value: 149, pct: 30 },
+    { name: "Other", value: 82, pct: 16 },
+    { name: "Study abroad", value: 44, pct: 9 },
+  ],
+  lengthOfStay: [
+    { name: "1 semester", value: 190, pct: 38 },
+    { name: "1 academic year", value: 186, pct: 37 },
+    { name: "< 4 months", value: 104, pct: 21 },
+    { name: "> 1 year", value: 10, pct: 2 },
+  ],
+  ageGroups: [
+    { name: "22–25", value: 291, pct: 59 },
+    { name: "18–21", value: 124, pct: 25 },
+    { name: "26–30", value: 68, pct: 14 },
+    { name: "30+", value: 7, pct: 1 },
+  ],
+  socialMedia: [
+    { name: "Instagram", value: 226, pct: 46 },
+    { name: "TikTok", value: 167, pct: 34 },
+    { name: "Youtube", value: 47, pct: 9 },
+    { name: "Telegram / WA", value: 35, pct: 7 },
+    { name: "Facebook", value: 4, pct: 1 },
+  ],
+  discoveryEase: [
+    { name: "Not really", value: 185, pct: 37 },
+    { name: "Very difficult", value: 179, pct: 36 },
+    { name: "Sometimes", value: 90, pct: 18 },
+    { name: "Yes, easily", value: 36, pct: 7 },
+  ],
+  preferredFormats: [
+    { name: "Curated Instagram", value: 146, pct: 29 },
+    { name: "Digital map", value: 121, pct: 24 },
+    { name: "Community platform", value: 92, pct: 18 },
+    { name: "Weekly event guide", value: 89, pct: 18 },
+    { name: "WA/Telegram updates", value: 27, pct: 5 },
+    { name: "Website/platform", value: 14, pct: 3 },
+  ],
+  platformInterest: [
+    { name: "Yes", value: 307, pct: 62 },
+    { name: "Maybe", value: 160, pct: 32 },
+    { name: "No", value: 23, pct: 5 },
+  ],
+  attendanceFrequency: [
+    { name: "A few times/month", value: 251, pct: 51 },
+    { name: "Rarely", value: 93, pct: 19 },
+    { name: "Occasionally", value: 89, pct: 18 },
+    { name: "Once a week", value: 57, pct: 12 },
+  ],
+  culturalActivities: [
+    { name: "Museums", value: 340, pct: 69 },
+    { name: "Concerts / music", value: 305, pct: 62 },
+    { name: "Cultural events", value: 295, pct: 60 },
+    { name: "Food & drinks", value: 240, pct: 49 },
+    { name: "Architecture", value: 230, pct: 47 },
+    { name: "Art galleries", value: 185, pct: 38 },
+    { name: "Cinema / theatre", value: 130, pct: 27 },
+    { name: "Street art", value: 90, pct: 18 },
+  ],
+};
