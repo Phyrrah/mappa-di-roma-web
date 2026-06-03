@@ -17,10 +17,10 @@ export default async function HomePage() {
       <Navbar />
       <main>
         <Hero />
-        <ProjectSection />
         <GuideSection />
         <ContestsSection />
         <InstagramSection photos={photos} />
+        <ProjectSection />
       </main>
       <Footer />
     </>
