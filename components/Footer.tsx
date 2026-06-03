@@ -60,8 +60,13 @@ export default function Footer() {
           <div>
             © 2026 Mappa di Roma — A Rome Business School Capstone Project
           </div>
-          <div className="text-center text-xs">
-            Team: Claudia Ciardiello · Pierre Brancart · Giulia Mologni · Adriane Bordin · Anaya Ambalal · Tamar Kiphiani
+          <div className="flex items-center gap-4">
+            <span className="text-center text-xs">
+              Team: Claudia Ciardiello · Pierre Brancart · Giulia Mologni · Adriane Bordin · Anaya Ambalal · Tamar Kiphiani
+            </span>
+            <a href="/admin" className="text-white/20 hover:text-white/50 transition-colors text-xs">
+              Admin
+            </a>
           </div>
         </div>
       </div>
