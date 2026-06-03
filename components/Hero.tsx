@@ -24,7 +24,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="#"
+              href="https://github.com/Phyrrah/mappa-di-roma-web/releases/download/v1.0/Booklet.pdf"
               className="inline-flex items-center gap-2 bg-terracotta text-white px-6 py-3 rounded-full font-medium hover:bg-terracotta-dark transition-colors shadow-lg shadow-terracotta/20"
               title="Booklet download coming soon"
             >
