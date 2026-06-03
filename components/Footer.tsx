@@ -64,6 +64,9 @@ export default function Footer() {
             <span className="text-center text-xs">
               Team: Claudia Ciardiello · Pierre Brancart · Giulia Mologni · Adriane Bordin · Anaya Ambalal · Tamar Kiphiani
             </span>
+            <span className="text-white/20 text-xs">·</span>
+            <span className="text-white/20 text-xs">Website co-built with AI</span>
+            <span className="text-white/20 text-xs">·</span>
             <a href="/admin" className="text-white/20 hover:text-white/50 transition-colors text-xs">
               Admin
             </a>
