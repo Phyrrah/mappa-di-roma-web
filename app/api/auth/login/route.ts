@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { signToken, COOKIE_NAME } from "@/lib/auth";
 
+const VALID_USERNAME = "RBS";
+const VALID_PASSWORD = "VivaRBS";
+
 export async function POST(req: NextRequest) {
   let body;
   try {
@@ -11,12 +14,7 @@ export async function POST(req: NextRequest) {
 
   const { username, password } = body;
 
-  const validUsername = process.env.ADMIN_USERNAME || "RBS";
-  const validPassword = process.env.ADMIN_PASSWORD || "VivaRBS";
-
-  console.log("Login attempt:", { username, receivedPwLength: password?.length, expectedUser: validUsername, expectedPwLength: validPassword.length });
-
-  if (username !== validUsername || password !== validPassword) {
+  if (username !== VALID_USERNAME || password !== VALID_PASSWORD) {
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 
@@ -27,7 +25,7 @@ export async function POST(req: NextRequest) {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
-    maxAge: 60 * 60 * 8, // 8 hours
+    maxAge: 60 * 60 * 8,
     path: "/",
   });
 
