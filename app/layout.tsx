@@ -81,6 +81,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteUrl,
   },
+  verification: {
+    google: "R3eB-DqvtAXUedMvLtG1UYu1GsVEPlkJHGLZXsVbK0A",
+  },
   category: "travel",
 };
 
