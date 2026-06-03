@@ -17,15 +17,6 @@ export default async function AdminDashboard() {
     <div className="min-h-screen bg-cream">
       <AdminNavbar />
       <div className="max-w-6xl mx-auto px-6 py-10 space-y-12">
-        {/* Photo management */}
-        <section>
-          <div className="mb-6">
-            <div className="text-terracotta text-xs font-medium uppercase tracking-widest mb-1">Homepage</div>
-            <h2 className="font-serif text-2xl font-bold text-brown-dark">Featured Instagram Photos</h2>
-          </div>
-          <AdminPhotoManager initialPhotos={photos} />
-        </section>
-
         {/* Survey dashboard */}
         <section>
           <div className="mb-6">
@@ -36,6 +27,15 @@ export default async function AdminDashboard() {
             </p>
           </div>
           <SurveyDashboard />
+        </section>
+
+        {/* Photo management */}
+        <section>
+          <div className="mb-6">
+            <div className="text-terracotta text-xs font-medium uppercase tracking-widest mb-1">Homepage</div>
+            <h2 className="font-serif text-2xl font-bold text-brown-dark">Featured Instagram Photos</h2>
+          </div>
+          <AdminPhotoManager initialPhotos={photos} />
         </section>
       </div>
     </div>
