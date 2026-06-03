@@ -2,10 +2,19 @@ import { NextRequest, NextResponse } from "next/server";
 import { signToken, COOKIE_NAME } from "@/lib/auth";
 
 export async function POST(req: NextRequest) {
-  const { username, password } = await req.json();
+  let body;
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
+  }
+
+  const { username, password } = body;
 
   const validUsername = process.env.ADMIN_USERNAME || "RBS";
   const validPassword = process.env.ADMIN_PASSWORD || "VivaRBS";
+
+  console.log("Login attempt:", { username, receivedPwLength: password?.length, expectedUser: validUsername, expectedPwLength: validPassword.length });
 
   if (username !== validUsername || password !== validPassword) {
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
