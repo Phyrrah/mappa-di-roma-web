@@ -24,14 +24,14 @@ export default function Navbar() {
 
         {/* Desktop menu */}
         <div className="hidden md:flex items-center gap-8">
+          <Link href="#project" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
+            The Project
+          </Link>
           <Link href="#guide" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             The Guide
           </Link>
           <Link href="#community" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             Community
-          </Link>
-          <Link href="#project" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
-            The Project
           </Link>
           <Link href="/contact" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             Contact
@@ -66,9 +66,9 @@ export default function Navbar() {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-cream border-t border-cream-dark px-6 py-4 flex flex-col gap-4">
+          <Link href="#project" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Project</Link>
           <Link href="#guide" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Guide</Link>
           <Link href="#community" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>Community</Link>
-          <Link href="#project" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Project</Link>
           <Link href="/contact" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>Contact</Link>
           <a
             href={INSTAGRAM_URL}
