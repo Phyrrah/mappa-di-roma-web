@@ -20,6 +20,7 @@ export default function Hero() {
           <p className="text-lg text-brown-light leading-relaxed max-w-lg">
             A community-driven guide to Rome&apos;s hidden art scene, cultural micro-events,
             and local gems — designed for international students and curious visitors.
+            Perfect for scrapbooking your own Roman adventure.
           </p>
 
           <div className="flex flex-wrap gap-4">

@@ -33,6 +33,9 @@ export default function Navbar() {
           <Link href="#project" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             The Project
           </Link>
+          <Link href="/contact" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
+            Contact
+          </Link>
           <a
             href={INSTAGRAM_URL}
             target="_blank"
@@ -66,6 +69,7 @@ export default function Navbar() {
           <Link href="#guide" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Guide</Link>
           <Link href="#community" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>Community</Link>
           <Link href="#project" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Project</Link>
+          <Link href="/contact" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>Contact</Link>
           <a
             href={INSTAGRAM_URL}
             target="_blank"

@@ -39,7 +39,8 @@ export default function Footer() {
               <li><a href="#guide" className="hover:text-white transition-colors">The Guide</a></li>
               <li><a href="#community" className="hover:text-white transition-colors">Community Contests</a></li>
               <li><a href="#instagram" className="hover:text-white transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Download Booklet</a></li>
+              <li><a href="https://github.com/Phyrrah/mappa-di-roma-web/releases/download/v1.0/Booklet.pdf" className="hover:text-white transition-colors">Download Booklet</a></li>
+              <li><a href="/contact" className="hover:text-white transition-colors">Become a Partner</a></li>
               <li>
                 <a
                   href={INSTAGRAM_URL}

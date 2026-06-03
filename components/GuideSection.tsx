@@ -19,8 +19,8 @@ export default function GuideSection() {
     },
     {
       icon: "✨",
-      title: "Customizable",
-      desc: "A neutral, free-access folio you can make your own — add your own discoveries.",
+      title: "Ideal for Scrapbooking",
+      desc: "A blank canvas to fill with your own notes, drawings, and memories — make Rome yours.",
     },
   ];
 
