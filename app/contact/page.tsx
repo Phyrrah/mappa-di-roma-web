@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Partner with MappaRoma — join as a distribution partner (Type-A) or cultural venue (Type-B). Launch your own illustrated cultural guide in your city. Contact us for collaboration opportunities.",
   alternates: {
-    canonical: "https://mapparoma-web.vercel.app/contact",
+    canonical: "https://mapparoma.vercel.app/contact",
   },
 };
 

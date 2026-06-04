@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     "Download the free illustrated scrapbook guide to Rome's art scene. Hand-drawn neighborhood maps, cultural events, local addresses — for Erasmus students, exchange programs, and curious visitors. Join the community.",
   alternates: {
-    canonical: "https://mapparoma-web.vercel.app",
+    canonical: "https://mapparoma.vercel.app",
   },
 };
 

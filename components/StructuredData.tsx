@@ -3,8 +3,8 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "MappaRoma",
-    url: "https://mapparoma-web.vercel.app",
-    logo: "https://mapparoma-web.vercel.app/example.jpeg",
+    url: "https://mapparoma.vercel.app",
+    logo: "https://mapparoma.vercel.app/example.jpeg",
     description:
       "Community-driven cultural guide to Rome for international students — illustrated neighborhood maps, local addresses, and art events.",
     sameAs: ["https://www.instagram.com/mappadiroma/"],
@@ -33,7 +33,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "MappaRoma",
-    url: "https://mapparoma-web.vercel.app",
+    url: "https://mapparoma.vercel.app",
     description:
       "Free illustrated cultural guide to Rome — hand-drawn neighborhood maps, art galleries, cultural events, and local addresses for Erasmus students and visitors.",
     inLanguage: ["en", "fr", "it"],
@@ -80,13 +80,13 @@ export default function StructuredData() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://mapparoma-web.vercel.app",
+        item: "https://mapparoma.vercel.app",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Contact & Partnerships",
-        item: "https://mapparoma-web.vercel.app/contact",
+        item: "https://mapparoma.vercel.app/contact",
       },
     ],
   };
