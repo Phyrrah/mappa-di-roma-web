@@ -3,22 +3,18 @@ import Image from "next/image";
 export default function GuideSection() {
   const features = [
     {
-      icon: "🗺️",
       title: "Hand-illustrated Maps",
       desc: "Beautiful hand-drawn maps of each Roman neighborhood, curated for cultural exploration.",
     },
     {
-      icon: "🎨",
       title: "Art & Culture Focus",
       desc: "From MAXXI to hidden galleries — every cultural space that matters to the curious visitor.",
     },
     {
-      icon: "🍕",
       title: "Local Addresses",
       desc: "Favorite gelaterie, enoteca, and bookshops — the real Rome, beyond tourist trails.",
     },
     {
-      icon: "✨",
       title: "Ideal for Scrapbooking",
       desc: "A blank canvas to fill with your own notes, drawings, and memories — make Rome yours.",
     },
@@ -60,7 +56,6 @@ export default function GuideSection() {
             <div className="grid grid-cols-2 gap-4">
               {features.map((f) => (
                 <div key={f.title} className="bg-cream-dark rounded-xl p-4">
-                  <div className="text-2xl mb-2">{f.icon}</div>
                   <div className="font-semibold text-brown-dark text-sm mb-1">{f.title}</div>
                   <div className="text-brown-light text-xs leading-relaxed">{f.desc}</div>
                 </div>
