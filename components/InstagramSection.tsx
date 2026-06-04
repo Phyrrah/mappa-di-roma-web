@@ -23,7 +23,7 @@ function PhotoCard({ photo }: { photo: FeaturedPhoto }) {
       {hasImage ? (
         <Image
           src={photo.image_url}
-          alt={photo.caption || "Mappa di Roma Instagram photo"}
+          alt={photo.caption || "MappaRoma Instagram photo"}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
           unoptimized

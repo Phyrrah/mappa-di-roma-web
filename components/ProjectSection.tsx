@@ -13,7 +13,7 @@ export default function ProjectSection() {
           </div>
           <div className="flex flex-col justify-center space-y-4 text-white/70 leading-relaxed">
             <p>
-              <strong className="text-white">Mappa di Roma</strong> enhances the visibility of
+              <strong className="text-white">MappaRoma</strong> enhances the visibility of
               Rome&apos;s art and cultural events through user-generated content, designed for
               short and medium-term visitors — Erasmus students, exchange programs, and tourists.
             </p>

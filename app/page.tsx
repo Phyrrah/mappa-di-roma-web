@@ -12,11 +12,11 @@ import { getFeaturedPhotos } from "@/lib/supabase";
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "Mappa di Roma — Free Illustrated Cultural Guide to Rome",
+  title: "MappaRoma — Free Illustrated Cultural Guide to Rome",
   description:
     "Download the free illustrated scrapbook guide to Rome's art scene. Hand-drawn neighborhood maps, cultural events, local addresses — for Erasmus students, exchange programs, and curious visitors. Join the community.",
   alternates: {
-    canonical: "https://mappa-di-roma-web.vercel.app",
+    canonical: "https://mapparoma-web.vercel.app",
   },
 };
 

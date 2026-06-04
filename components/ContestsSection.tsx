@@ -91,7 +91,7 @@ export default function ContestsSection() {
           <h3 className="font-serif text-2xl font-bold mb-8">How it works</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { step: "1", title: "Get the guide", desc: "Download the free Mappa di Roma booklet and explore your chosen neighborhood." },
+              { step: "1", title: "Get the guide", desc: "Download the free MappaRoma booklet and explore your chosen neighborhood." },
               { step: "2", title: "Create your map", desc: "Build your own thematic itinerary — digitally with Google My Maps or on paper." },
               { step: "3", title: "Share & win", desc: "Submit your map on Instagram. The best entry wins exclusive partner rewards." },
             ].map((item) => (

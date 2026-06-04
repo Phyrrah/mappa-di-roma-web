@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin", "/api/"],
       },
     ],
-    sitemap: "https://mappa-di-roma-web.vercel.app/sitemap.xml",
+    sitemap: "https://mapparoma-web.vercel.app/sitemap.xml",
   };
 }

@@ -2,9 +2,9 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Mappa di Roma",
-    url: "https://mappa-di-roma-web.vercel.app",
-    logo: "https://mappa-di-roma-web.vercel.app/example.jpeg",
+    name: "MappaRoma",
+    url: "https://mapparoma-web.vercel.app",
+    logo: "https://mapparoma-web.vercel.app/example.jpeg",
     description:
       "Community-driven cultural guide to Rome for international students — illustrated neighborhood maps, local addresses, and art events.",
     sameAs: ["https://www.instagram.com/pierrebrancart/"],
@@ -32,8 +32,8 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Mappa di Roma",
-    url: "https://mappa-di-roma-web.vercel.app",
+    name: "MappaRoma",
+    url: "https://mapparoma-web.vercel.app",
     description:
       "Free illustrated cultural guide to Rome — hand-drawn neighborhood maps, art galleries, cultural events, and local addresses for Erasmus students and visitors.",
     inLanguage: ["en", "fr", "it"],
@@ -51,12 +51,12 @@ export default function StructuredData() {
   const bookletSchema = {
     "@context": "https://schema.org",
     "@type": "Book",
-    name: "Mappa di Roma — Illustrated Cultural Guide to Rome",
+    name: "MappaRoma — Illustrated Cultural Guide to Rome",
     description:
       "48-page hand-illustrated scrapbook guide covering Rome's cultural neighborhoods with maps, local addresses, and personal recommendations. Free PDF download.",
-    url: "https://github.com/Phyrrah/mappa-di-roma-web/releases/download/v1.0/Booklet.pdf",
+    url: "https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/Booklet.pdf",
     author: { "@type": "Person", name: "Pierre Brancart" },
-    publisher: { "@type": "Organization", name: "Mappa di Roma" },
+    publisher: { "@type": "Organization", name: "MappaRoma" },
     datePublished: "2026",
     inLanguage: "fr",
     numberOfPages: 48,
@@ -80,13 +80,13 @@ export default function StructuredData() {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://mappa-di-roma-web.vercel.app",
+        item: "https://mapparoma-web.vercel.app",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Contact & Partnerships",
-        item: "https://mappa-di-roma-web.vercel.app/contact",
+        item: "https://mapparoma-web.vercel.app/contact",
       },
     ],
   };

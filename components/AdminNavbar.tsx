@@ -14,7 +14,7 @@ export default function AdminNavbar() {
     <nav className="bg-brown-dark text-white px-6 py-4 flex items-center justify-between">
       <div className="flex items-center gap-6">
         <Link href="/" className="font-serif text-lg font-bold text-white hover:text-terracotta-light transition-colors">
-          Mappa di Roma
+          MappaRoma
         </Link>
         <span className="text-white/30">|</span>
         <span className="text-white/60 text-sm">Admin Dashboard</span>

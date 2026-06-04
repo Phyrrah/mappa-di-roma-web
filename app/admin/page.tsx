@@ -33,7 +33,7 @@ export default function AdminLogin() {
       <div className="w-full max-w-sm">
         {/* Logo */}
         <div className="text-center mb-10">
-          <div className="font-serif text-4xl font-bold text-white mb-2">Mappa di Roma</div>
+          <div className="font-serif text-4xl font-bold text-white mb-2">MappaRoma</div>
           <div className="text-white/40 text-sm">Admin Portal — Rome Business School</div>
         </div>
 

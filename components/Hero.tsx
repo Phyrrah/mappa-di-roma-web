@@ -25,7 +25,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://github.com/Phyrrah/mappa-di-roma-web/releases/download/v1.0/Booklet.pdf"
+              href="https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/Booklet.pdf"
               className="inline-flex items-center gap-2 bg-terracotta text-white px-6 py-3 rounded-full font-medium hover:bg-terracotta-dark transition-colors shadow-lg shadow-terracotta/20"
               title="Booklet download coming soon"
             >
@@ -69,7 +69,7 @@ export default function Hero() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/example.jpeg"
-              alt="Mappa di Roma illustrated scrapbook guide — hand-drawn cultural map of Foro Romano neighborhood in Rome with local addresses, walking routes, and personal souvenirs"
+              alt="MappaRoma illustrated scrapbook guide — hand-drawn cultural map of Foro Romano neighborhood in Rome with local addresses, walking routes, and personal souvenirs"
               width={700}
               height={500}
               className="w-full h-auto object-cover"

@@ -2,7 +2,7 @@ import { SignJWT, jwtVerify } from "jose";
 import { cookies } from "next/headers";
 
 const secret = new TextEncoder().encode(
-  process.env.JWT_SECRET || "mappa-di-roma-secret"
+  process.env.JWT_SECRET || "mapparoma-secret"
 );
 
 const COOKIE_NAME = "mappa_admin_token";

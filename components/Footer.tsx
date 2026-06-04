@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="font-serif text-2xl font-bold mb-4">Mappa di Roma</div>
+            <div className="font-serif text-2xl font-bold mb-4">MappaRoma</div>
             <p className="text-white/60 leading-relaxed mb-6 max-w-md">
               A community-driven cultural guide to Rome, designed for international students
               and curious visitors who want to discover the city beyond the tourist trail.
@@ -39,7 +39,7 @@ export default function Footer() {
               <li><a href="#guide" className="hover:text-white transition-colors">The Guide</a></li>
               <li><a href="#community" className="hover:text-white transition-colors">Community Contests</a></li>
               <li><a href="#instagram" className="hover:text-white transition-colors">Instagram</a></li>
-              <li><a href="https://github.com/Phyrrah/mappa-di-roma-web/releases/download/v1.0/Booklet.pdf" className="hover:text-white transition-colors">Download Booklet</a></li>
+              <li><a href="https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/Booklet.pdf" className="hover:text-white transition-colors">Download Booklet</a></li>
               <li><a href="/contact" className="hover:text-white transition-colors">Become a Partner</a></li>
               <li>
                 <a
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-white/40 text-sm">
           <div>
-            © 2026 Mappa di Roma — A Rome Business School Capstone Project
+            © 2026 MappaRoma — A Rome Business School Capstone Project
           </div>
           <div className="flex items-center gap-4">
             <span className="text-center text-xs">

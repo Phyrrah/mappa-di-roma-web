@@ -47,7 +47,7 @@ export default function GuideSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <Image
                 src="/example.jpeg"
-                alt="Example page from the Mappa di Roma booklet showing Foro Romano"
+                alt="Example page from the MappaRoma booklet showing Foro Romano"
                 width={600}
                 height={420}
                 className="w-full h-auto"
@@ -76,7 +76,7 @@ export default function GuideSection() {
                 covering Rome&apos;s most vibrant neighborhoods.
               </p>
               <a
-                href="https://github.com/Phyrrah/mappa-di-roma-web/releases/download/v1.0/Booklet.pdf"
+                href="https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/Booklet.pdf"
                 className="inline-flex items-center gap-2 bg-terracotta text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-terracotta-dark transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"

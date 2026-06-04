@@ -4,9 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Contact & Partnerships",
   description:
-    "Partner with Mappa di Roma — join as a distribution partner (Type-A) or cultural venue (Type-B). Launch your own illustrated cultural guide in your city. Contact us for collaboration opportunities.",
+    "Partner with MappaRoma — join as a distribution partner (Type-A) or cultural venue (Type-B). Launch your own illustrated cultural guide in your city. Contact us for collaboration opportunities.",
   alternates: {
-    canonical: "https://mappa-di-roma-web.vercel.app/contact",
+    canonical: "https://mapparoma-web.vercel.app/contact",
   },
 };
 
@@ -40,7 +40,7 @@ export default function ContactPage() {
       <nav className="bg-cream/95 backdrop-blur-sm border-b border-cream-dark px-6 py-4">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <Link href="/" className="font-serif text-xl font-semibold text-brown-dark tracking-wide">
-            Mappa di Roma
+            MappaRoma
           </Link>
           <Link href="/" className="text-sm text-brown-light hover:text-terracotta transition-colors">
             ← Back to homepage
@@ -106,7 +106,7 @@ export default function ContactPage() {
             Launch your own local guide
           </h2>
           <p className="text-white/60 max-w-lg mx-auto leading-relaxed mb-6">
-            The Mappa di Roma model is designed to be replicated in any student-heavy
+            The MappaRoma model is designed to be replicated in any student-heavy
             or touristic city. If you&apos;re based in Bologna, Florence, Milan, Barcelona,
             Berlin, Amsterdam, Paris, or anywhere else — we can help you get started.
           </p>
@@ -125,7 +125,7 @@ export default function ContactPage() {
             ))}
           </div>
           <a
-            href={`mailto:${EMAIL}?subject=${encodeURIComponent("Launch a local guide — [Your City]")}&body=${encodeURIComponent("Hi,\n\nI'm interested in launching a local version of Mappa di Roma in my city.\n\nCity: \nUniversity/Organization: \n\nLooking forward to hearing from you!")}`}
+            href={`mailto:${EMAIL}?subject=${encodeURIComponent("Launch a local guide — [Your City]")}&body=${encodeURIComponent("Hi,\n\nI'm interested in launching a local version of MappaRoma in my city.\n\nCity: \nUniversity/Organization: \n\nLooking forward to hearing from you!")}`}
             className="inline-flex items-center gap-2 bg-terracotta hover:bg-terracotta-dark text-white px-6 py-3 rounded-full font-medium transition-colors"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
