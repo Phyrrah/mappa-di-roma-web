@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { FeaturedPhoto } from "@/lib/supabase";
 
-const INSTAGRAM_URL = "https://www.instagram.com/pierrebrancart/";
+const INSTAGRAM_URL = "https://www.instagram.com/mappadiroma/";
 
 export default function AdminPhotoManager({ initialPhotos }: { initialPhotos: FeaturedPhoto[] }) {
   const [photos, setPhotos] = useState<FeaturedPhoto[]>(

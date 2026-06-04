@@ -7,7 +7,7 @@ export default function StructuredData() {
     logo: "https://mapparoma-web.vercel.app/example.jpeg",
     description:
       "Community-driven cultural guide to Rome for international students — illustrated neighborhood maps, local addresses, and art events.",
-    sameAs: ["https://www.instagram.com/pierrebrancart/"],
+    sameAs: ["https://www.instagram.com/mappadiroma/"],
     contactPoint: {
       "@type": "ContactPoint",
       email: "bpierre@student.romebusinessschool.com",

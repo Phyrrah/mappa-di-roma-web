@@ -29,7 +29,7 @@ export async function PUT(req: NextRequest) {
   const updates = photos.map((p: { position: number; image_url: string; instagram_url: string; caption: string }) => ({
     position: p.position,
     image_url: p.image_url || "",
-    instagram_url: p.instagram_url || "https://www.instagram.com/pierrebrancart/",
+    instagram_url: p.instagram_url || "https://www.instagram.com/mappadiroma/",
     caption: p.caption || "",
     updated_at: new Date().toISOString(),
   }));

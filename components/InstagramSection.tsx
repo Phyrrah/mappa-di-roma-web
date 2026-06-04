@@ -1,7 +1,7 @@
 import { FeaturedPhoto } from "@/lib/supabase";
 import Image from "next/image";
 
-const INSTAGRAM_URL = "https://www.instagram.com/pierrebrancart/";
+const INSTAGRAM_URL = "https://www.instagram.com/mappadiroma/";
 
 function InstagramIcon({ className = "w-6 h-6" }: { className?: string }) {
   return (

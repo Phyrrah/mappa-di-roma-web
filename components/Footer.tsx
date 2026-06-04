@@ -1,4 +1,4 @@
-const INSTAGRAM_URL = "https://www.instagram.com/pierrebrancart/";
+const INSTAGRAM_URL = "https://www.instagram.com/mappadiroma/";
 
 function InstagramIcon() {
   return (

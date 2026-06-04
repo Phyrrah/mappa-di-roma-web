@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://www.instagram.com/pierrebrancart/";
+const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://www.instagram.com/mappadiroma/";
 
 function InstagramIcon() {
   return (
