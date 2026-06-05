@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="font-grotesk text-2xl font-bold mb-4">mappa<span className="text-saffron">roma</span></div>
+            <div className="font-grotesk text-2xl mb-4" style={{ fontWeight: 800 }}>mappa<span className="text-saffron">roma</span></div>
             <p className="text-white/60 leading-relaxed mb-6 max-w-md">
               A community-driven cultural guide to Rome, designed for international students
               and curious visitors who want to discover the city beyond the tourist trail.

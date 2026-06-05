@@ -89,7 +89,7 @@ export default function MappaLogo({ variant = "lockup", size = 140, className = 
         <Panels />
         <Route />
       </svg>
-      <span className="font-grotesk font-bold text-ink leading-none" style={{ fontSize: size * 0.17 }}>
+      <span className="font-grotesk text-ink leading-none" style={{ fontSize: size * 0.17, fontWeight: 800 }}>
         mappa<span className="text-saffron">roma</span>
       </span>
     </span>
