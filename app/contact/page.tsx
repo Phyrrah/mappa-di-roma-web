@@ -39,8 +39,8 @@ export default function ContactPage() {
       {/* Nav */}
       <nav className="bg-cream/95 backdrop-blur-sm border-b border-cream-dark px-6 py-4">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
-          <Link href="/" className="font-serif text-xl font-semibold text-brown-dark tracking-wide">
-            MappaRoma
+          <Link href="/" className="font-grotesk text-xl font-bold text-brown-dark">
+            mappa<span className="text-saffron">roma</span>
           </Link>
           <Link href="/" className="text-sm text-brown-light hover:text-terracotta transition-colors">
             ← Back to homepage

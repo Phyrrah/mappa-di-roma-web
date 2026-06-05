@@ -9,10 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        /* Mappa Roma — saffron accent */
         terracotta: {
-          DEFAULT: "#C85A2C",
-          light: "#E07A4A",
-          dark: "#A04520",
+          DEFAULT: "#F4A52C",
+          light: "#F7C56A",
+          dark: "#D4891A",
         },
         sage: {
           DEFAULT: "#8B9B6A",
@@ -23,18 +24,36 @@ const config: Config = {
           mappa: "#D4A9A5",
         },
         cream: {
-          DEFAULT: "#FBF5EC",
-          dark: "#F0E6D3",
+          DEFAULT: "#FAF4EA",
+          dark: "#F3E9D8",
         },
         brown: {
-          DEFAULT: "#3D2B1F",
-          dark: "#2C1A0E",
-          light: "#7A5C48",
+          DEFAULT: "#2E241B",
+          dark: "#1E160F",
+          light: "#6B5847",
+        },
+        ink: {
+          DEFAULT: "#2E241B",
+          2: "#6B5847",
+          3: "#9A8978",
+        },
+        paper: {
+          DEFAULT: "#FAF4EA",
+          2: "#F3E9D8",
+          edge: "#E7D9C2",
+        },
+        saffron: {
+          DEFAULT: "#F4A52C",
+          light: "#F7C56A",
+          dark: "#D4891A",
         },
       },
       fontFamily: {
         serif: ["Playfair Display", "Georgia", "serif"],
         sans: ["DM Sans", "system-ui", "sans-serif"],
+        grotesk: ["Bricolage Grotesque", "DM Sans", "sans-serif"],
+        hand: ["Caveat", "cursive"],
+        mono: ["DM Mono", "ui-monospace", "monospace"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

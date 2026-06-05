@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import MappaLogo from "@/components/MappaLogo";
 
 const INSTAGRAM_URL = process.env.NEXT_PUBLIC_INSTAGRAM_URL || "https://www.instagram.com/mappadiroma/";
 
@@ -18,8 +19,8 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-cream-dark">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-serif text-xl font-semibold text-brown-dark tracking-wide">
-          MappaRoma
+        <Link href="/" className="flex items-center">
+          <MappaLogo variant="lockup" size={160} />
         </Link>
 
         {/* Desktop menu */}
