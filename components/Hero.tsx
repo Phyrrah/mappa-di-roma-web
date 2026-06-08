@@ -65,7 +65,7 @@ export default function Hero() {
         {/* Image */}
         <div className="relative">
           <div className="absolute -inset-4 bg-terracotta/10 rounded-3xl rotate-2" />
-          <div className="absolute -inset-4 bg-sage/10 rounded-3xl -rotate-1" />
+          <div className="absolute -inset-4 bg-crimson/8 rounded-3xl -rotate-1" />
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/example.jpeg"

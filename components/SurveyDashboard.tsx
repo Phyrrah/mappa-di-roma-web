@@ -6,8 +6,8 @@ import {
 import { surveyData } from "@/lib/survey-data";
 
 const COLORS = {
-  terracotta: "#C85A2C",
-  sage: "#8B9B6A",
+  terracotta: "#F4A52C",
+  crimson: "#8E001C",
   rose: "#D4A9A5",
   beige: "#F0E6D3",
   brown: "#7A5C48",
@@ -16,7 +16,7 @@ const COLORS = {
 
 const PIE_COLORS = [
   COLORS.terracotta,
-  COLORS.sage,
+  COLORS.crimson,
   COLORS.rose,
   COLORS.brown,
   COLORS.amber,
@@ -42,7 +42,8 @@ function StatCard({ label, value, sub, color = "terracotta" }: {
 }) {
   const colorMap: Record<string, string> = {
     terracotta: "text-terracotta",
-    sage: "text-sage-dark",
+    sage: "text-crimson",
+    crimson: "text-crimson",
     rose: "text-rose-mappa",
   };
   return (
@@ -94,7 +95,7 @@ export default function SurveyDashboard() {
                   key={item.name}
                   style={{ width: `${item.pct}%` }}
                   className={`flex items-center justify-center text-white text-sm font-bold transition-all ${
-                    item.name === "Yes" ? "bg-terracotta" : item.name === "Maybe" ? "bg-sage" : "bg-brown-light"
+                    item.name === "Yes" ? "bg-terracotta" : item.name === "Maybe" ? "bg-crimson/70" : "bg-brown-light"
                   }`}
                   title={`${item.name}: ${item.pct}%`}
                 >
@@ -105,7 +106,7 @@ export default function SurveyDashboard() {
             <div className="flex gap-4 mt-3">
               {surveyData.platformInterest.map((item) => (
                 <div key={item.name} className="flex items-center gap-1.5 text-sm text-brown-light">
-                  <span className={`w-3 h-3 rounded-full ${item.name === "Yes" ? "bg-terracotta" : item.name === "Maybe" ? "bg-sage" : "bg-brown-light"}`} />
+                  <span className={`w-3 h-3 rounded-full ${item.name === "Yes" ? "bg-terracotta" : item.name === "Maybe" ? "bg-crimson/70" : "bg-brown-light"}`} />
                   {item.name} — {item.value}
                 </div>
               ))}
@@ -194,7 +195,7 @@ export default function SurveyDashboard() {
               <XAxis type="number" tick={{ fontSize: 11 }} />
               <YAxis dataKey="name" type="category" tick={{ fontSize: 11 }} width={100} />
               <Tooltip formatter={(v: number) => [`${v} responses`]} />
-              <Bar dataKey="value" fill={COLORS.sage} radius={[0, 4, 4, 0]} />
+              <Bar dataKey="value" fill={COLORS.crimson} radius={[0, 4, 4, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>

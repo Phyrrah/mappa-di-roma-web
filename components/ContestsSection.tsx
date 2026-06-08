@@ -14,8 +14,8 @@ const contests = [
     description:
       "Bernini vs Borromini, Caravaggio vs Baglione, Baroque vs Classical. Discover Rome through its greatest artistic rivalries.",
     tags: ["Art history", "Architecture", "Baroque"],
-    color: "from-sage/20 to-sage/10",
-    accent: "text-sage-dark",
+    color: "from-crimson/10 to-crimson/5",
+    accent: "text-crimson",
   },
   {
     title: "Women of Rome",
@@ -32,7 +32,7 @@ const contests = [
     description:
       "From Via Margutta to experimental spaces in San Lorenzo — explore Rome's contemporary gallery circuit beyond the museums.",
     tags: ["Contemporary art", "Galleries", "Local"],
-    color: "from-terracotta/10 to-sage/10",
+    color: "from-terracotta/10 to-crimson/6",
     accent: "text-terracotta",
   },
 ];

@@ -20,6 +20,12 @@ const config: Config = {
           light: "#A8B88A",
           dark: "#6B7A4F",
         },
+        crimson: {
+          DEFAULT: "#8E001C",
+          light: "#B8314A",   /* hover / lighter accent  */
+          dark:  "#6A0015",   /* deep variant             */
+          muted: "#C4415A",   /* chart fills / soft use   */
+        },
         rose: {
           mappa: "#D4A9A5",
         },

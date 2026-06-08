@@ -19,7 +19,7 @@ const phases = [
   {
     number: "02",
     title: "Community Engagement",
-    color: "bg-sage",
+    color: "bg-crimson/80",
     items: [
       "Full social media launch with partners",
       "First curated content & contests",
@@ -69,7 +69,7 @@ export default async function AdminDashboard() {
               </p>
             </div>
             <div className="bg-white border border-cream-dark rounded-xl p-6">
-              <div className="text-sage-dark text-xs font-bold uppercase tracking-widest mb-2">Type-B Partners</div>
+              <div className="text-crimson text-xs font-bold uppercase tracking-widest mb-2">Type-B Partners</div>
               <h3 className="font-serif text-lg font-semibold text-brown-dark mb-2">Cultural Venues</h3>
               <p className="text-brown-light text-sm leading-relaxed">
                 Museums, galleries, cultural landmarks, and live venues — they provide exclusive

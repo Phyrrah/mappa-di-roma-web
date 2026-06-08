@@ -26,7 +26,7 @@ export default function ContactPage() {
     {
       type: "Type-B Partner",
       subtitle: "Cultural Venues & Events",
-      color: "sage",
+      color: "crimson",
       description:
         "You are a cultural venue, gallery, museum, or event organizer that wants to reach an engaged international audience.",
       examples: "Galleries, museums, live venues, bookshops, cultural spaces...",
@@ -73,7 +73,7 @@ export default function ContactPage() {
               <div className={`inline-block text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4 ${
                 p.color === "terracotta"
                   ? "bg-terracotta/10 text-terracotta"
-                  : "bg-sage/10 text-sage-dark"
+                  : "bg-crimson/10 text-crimson"
               }`}>
                 {p.type}
               </div>
@@ -85,7 +85,7 @@ export default function ContactPage() {
                 className={`inline-flex items-center gap-2 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors ${
                   p.color === "terracotta"
                     ? "bg-terracotta hover:bg-terracotta-dark"
-                    : "bg-sage hover:bg-sage-dark"
+                    : "bg-crimson hover:bg-crimson-light"
                 }`}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
