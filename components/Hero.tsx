@@ -52,7 +52,7 @@ export default function Hero() {
               <div className="text-xs text-brown-light mt-1">survey responses</div>
             </div>
             <div>
-              <div className="font-serif text-3xl font-bold text-terracotta">62%</div>
+              <div className="font-serif text-3xl font-bold text-crimson">62%</div>
               <div className="text-xs text-brown-light mt-1">want a platform</div>
             </div>
             <div>
@@ -65,7 +65,7 @@ export default function Hero() {
         {/* Image */}
         <div className="relative">
           <div className="absolute -inset-4 bg-terracotta/10 rounded-3xl rotate-2" />
-          <div className="absolute -inset-4 bg-crimson/8 rounded-3xl -rotate-1" />
+          <div className="absolute -inset-4 bg-crimson/15 rounded-3xl -rotate-1" />
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src="/example.jpeg"

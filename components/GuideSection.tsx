@@ -55,14 +55,21 @@ export default function GuideSection() {
           <div className="space-y-8">
             <div className="grid grid-cols-2 gap-4">
               {features.map((f) => (
-                <div key={f.title} className="bg-cream-dark rounded-xl p-4">
-                  <div className="font-semibold text-brown-dark text-sm mb-1">{f.title}</div>
+                <div
+                  key={f.title}
+                  className={`rounded-xl p-4 ${
+                    f.title === "Ideal for Scrapbooking"
+                      ? "bg-crimson/8 border-l-2 border-crimson/40"
+                      : "bg-cream-dark"
+                  }`}
+                >
+                  <div className={`font-semibold text-sm mb-1 ${f.title === "Ideal for Scrapbooking" ? "text-crimson" : "text-brown-dark"}`}>{f.title}</div>
                   <div className="text-brown-light text-xs leading-relaxed">{f.desc}</div>
                 </div>
               ))}
             </div>
 
-            <div className="bg-terracotta/10 border border-terracotta/20 rounded-2xl p-6">
+            <div className="bg-gradient-to-br from-terracotta/10 to-crimson/8 border border-terracotta/20 rounded-2xl p-6">
               <div className="font-serif text-xl font-semibold text-brown-dark mb-2">
                 Download the full Booklet
               </div>

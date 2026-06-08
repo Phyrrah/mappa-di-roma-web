@@ -34,7 +34,7 @@ export default function Navbar() {
           <Link href="#community" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             Community
           </Link>
-          <Link href="/contact" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
+          <Link href="/contact" className="text-sm font-medium text-brown hover:text-crimson transition-colors">
             Contact
           </Link>
           <a
