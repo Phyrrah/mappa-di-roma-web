@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getAdminSession } from "@/lib/auth";
 import { supabase } from "@/lib/supabase";
+import { getSupabaseAdmin } from "@/lib/supabase-admin";
 
 export async function GET() {
   const { data, error } = await supabase
@@ -34,7 +35,9 @@ export async function PUT(req: NextRequest) {
     updated_at: new Date().toISOString(),
   }));
 
-  const { error } = await supabase
+  // The table is publicly readable but writable only by the service role,
+  // so the anon key cannot overwrite the homepage.
+  const { error } = await getSupabaseAdmin()
     .from("mappa_featured_photos")
     .upsert(updates, { onConflict: "position" });
 

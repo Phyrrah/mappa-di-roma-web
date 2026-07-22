@@ -4,6 +4,7 @@ import { getFeaturedPhotos } from "@/lib/supabase";
 import SurveyDashboard from "@/components/SurveyDashboard";
 import AdminPhotoManager from "@/components/AdminPhotoManager";
 import AdminNavbar from "@/components/AdminNavbar";
+import AdminLeads from "@/components/AdminLeads";
 
 const phases = [
   {
@@ -97,6 +98,18 @@ export default async function AdminDashboard() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Guide download leads */}
+        <section>
+          <div className="mb-6">
+            <div className="text-terracotta text-xs font-medium uppercase tracking-widest mb-1">Audience</div>
+            <h2 className="font-serif text-2xl font-bold text-brown-dark">Guide Downloads</h2>
+            <p className="text-brown-light text-sm mt-1">
+              People who requested the booklet through the download form
+            </p>
+          </div>
+          <AdminLeads />
         </section>
 
         {/* Survey dashboard */}

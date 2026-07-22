@@ -54,7 +54,7 @@ export default function StructuredData() {
     name: "MappaRoma — Illustrated Cultural Guide to Rome",
     description:
       "48-page hand-illustrated scrapbook guide covering Rome's cultural neighborhoods with maps, local addresses, and personal recommendations. Free PDF download.",
-    url: "https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/Booklet.pdf",
+    url: "https://mapparoma.vercel.app/#guide",
     author: { "@type": "Person", name: "Pierre Brancart" },
     publisher: { "@type": "Organization", name: "MappaRoma" },
     datePublished: "2026",
