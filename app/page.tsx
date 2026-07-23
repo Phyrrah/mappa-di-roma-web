@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import StructuredData from "@/components/StructuredData";
 import ProjectSection from "@/components/ProjectSection";
 import GuideSection from "@/components/GuideSection";
+import MapSection from "@/components/MapSection";
 import ContestsSection from "@/components/ContestsSection";
 import InstagramSection from "@/components/InstagramSection";
 import Footer from "@/components/Footer";
@@ -31,6 +32,7 @@ export default async function HomePage() {
         <Hero />
         <ProjectSection />
         <GuideSection />
+        <MapSection />
         <ContestsSection />
         <InstagramSection photos={photos} />
       </main>

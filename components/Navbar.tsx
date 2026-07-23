@@ -31,6 +31,9 @@ export default function Navbar() {
           <Link href="#guide" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             The Guide
           </Link>
+          <Link href="#map" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
+            The Map
+          </Link>
           <Link href="#community" className="text-sm font-medium text-brown hover:text-terracotta transition-colors">
             Community
           </Link>
@@ -69,6 +72,7 @@ export default function Navbar() {
         <div className="md:hidden bg-cream border-t border-cream-dark px-6 py-4 flex flex-col gap-4">
           <Link href="#project" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Project</Link>
           <Link href="#guide" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Guide</Link>
+          <Link href="#map" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>The Map</Link>
           <Link href="#community" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>Community</Link>
           <Link href="/contact" className="text-sm font-medium text-brown" onClick={() => setMenuOpen(false)}>Contact</Link>
           <a
