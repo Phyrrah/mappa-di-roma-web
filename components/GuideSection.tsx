@@ -75,14 +75,14 @@ export default function GuideSection() {
                 Download the full Booklet
               </div>
               <p className="text-brown-light text-sm mb-4">
-                48 pages of illustrated maps, cultural recommendations, and local addresses —
+                40 pages of illustrated maps, cultural recommendations, and local addresses —
                 covering Rome&apos;s most vibrant neighborhoods.
               </p>
               <GuideDownloadButton className="inline-flex items-center gap-2 bg-terracotta text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-terracotta-dark transition-colors">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
-                Download free — PDF (75 MB)
+                Download free — PDF (44 MB)
               </GuideDownloadButton>
             </div>
           </div>

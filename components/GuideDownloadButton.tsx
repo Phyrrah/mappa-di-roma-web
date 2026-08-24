@@ -240,7 +240,7 @@ function GuideDownloadModal({ onClose }: { onClose: () => void }) {
                 disabled={submitting}
                 className="w-full rounded-full bg-terracotta px-5 py-3 text-sm font-medium text-white shadow-lg shadow-terracotta/20 transition-colors hover:bg-terracotta-dark disabled:cursor-not-allowed disabled:opacity-60"
               >
-                {submitting ? "Preparing your download…" : "Send and download — PDF (75 MB)"}
+                {submitting ? "Preparing your download…" : "Send and download — PDF (44 MB)"}
               </button>
 
               <p className="text-center text-[11px] leading-relaxed text-ink-3">
