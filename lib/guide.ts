@@ -1,7 +1,7 @@
 /** Shared constants for the guide download flow. */
 
 export const BOOKLET_URL =
-  "https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/Booklet.pdf";
+  "https://github.com/Phyrrah/mapparoma-web/releases/download/v1.0/mapparoma-folio.pdf";
 
 /** Bump when the terms text changes — stored with each submission as consent evidence. */
 export const TERMS_VERSION = "2026-07";
