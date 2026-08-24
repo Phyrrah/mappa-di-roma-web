@@ -4,8 +4,8 @@ import GuideDownloadButton from "./GuideDownloadButton";
 export default function GuideSection() {
   const features = [
     {
-      title: "Hand-illustrated Maps",
-      desc: "Beautiful hand-drawn maps of each Roman neighborhood, curated for cultural exploration.",
+      title: "Every Street, Mapped",
+      desc: "A precise, to-scale street map of Rome's 18 historic districts, drawn from open city data.",
     },
     {
       title: "Art & Culture Focus",
