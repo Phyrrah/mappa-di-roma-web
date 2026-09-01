@@ -1,5 +1,5 @@
-import Image from "next/image";
 import GuideDownloadButton from "./GuideDownloadButton";
+import ZoomableImage from "./ZoomableImage";
 
 export default function GuideSection() {
   const features = [
@@ -42,14 +42,19 @@ export default function GuideSection() {
           <div className="relative group">
             <div className="absolute -inset-3 bg-terracotta/20 rounded-3xl -rotate-1 group-hover:rotate-0 transition-transform duration-500" />
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
-              <Image
-                src="/example.jpeg"
-                alt="Example page from the MappaRoma booklet showing Foro Romano"
+              <ZoomableImage
+                src="/example-final.jpg"
+                alt="Great Rivalry in Rome — a themed MappaRoma route mapping the Bernini and Borromini landmarks across the city"
                 width={600}
-                height={420}
+                height={424}
+                sizes="(max-width: 768px) 100vw, 600px"
                 className="w-full h-auto"
               />
             </div>
+            <p className="mt-4 text-center text-sm italic text-brown-light">
+              <span className="font-serif not-italic font-semibold text-brown-dark">Great Rivalry in Rome</span>
+              {" "}— one of the folio&apos;s themed routes. Click to zoom in.
+            </p>
           </div>
 
           {/* Features + CTA */}

@@ -4,7 +4,7 @@ export default function StructuredData() {
     "@type": "Organization",
     name: "MappaRoma",
     url: "https://mapparoma.vercel.app",
-    logo: "https://mapparoma.vercel.app/example.jpeg",
+    logo: "https://mapparoma.vercel.app/example-final.jpg",
     description:
       "Community-driven cultural guide to Rome for international students — illustrated neighborhood maps, local addresses, and art events.",
     sameAs: ["https://www.instagram.com/mappadiroma/"],

@@ -64,10 +64,10 @@ export const metadata: Metadata = {
       "Discover Rome's hidden art scene with hand-illustrated neighborhood maps, local addresses, and community contests. Free illustrated guide for Erasmus students and visitors.",
     images: [
       {
-        url: "/example.jpeg",
+        url: "/example-final.jpg",
         width: 1200,
-        height: 850,
-        alt: "MappaRoma — hand-illustrated guide page showing Foro Romano neighborhood with map, addresses, and travel notes",
+        height: 849,
+        alt: "Great Rivalry in Rome — a themed MappaRoma route mapping the Bernini and Borromini landmarks across the city",
       },
     ],
   },
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     title: "MappaRoma — Free Cultural Guide to Rome",
     description:
       "Hand-illustrated neighborhood maps, cultural events, and local gems for international students in Rome. Download free.",
-    images: ["/example.jpeg"],
+    images: ["/example-final.jpg"],
   },
   alternates: {
     canonical: siteUrl,

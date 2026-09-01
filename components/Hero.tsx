@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import GuideDownloadButton from "./GuideDownloadButton";
+import ZoomableImage from "./ZoomableImage";
 
 export default function Hero() {
   return (
@@ -64,18 +64,19 @@ export default function Hero() {
           <div className="absolute -inset-4 bg-terracotta/10 rounded-3xl rotate-2" />
           <div className="absolute -inset-4 bg-crimson/15 rounded-3xl -rotate-1" />
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-            <Image
-              src="/example.jpeg"
-              alt="MappaRoma illustrated scrapbook guide — hand-drawn cultural map of Foro Romano neighborhood in Rome with local addresses, walking routes, and personal souvenirs"
+            <ZoomableImage
+              src="/example-final.jpg"
+              alt="Great Rivalry in Rome — a themed MappaRoma route mapping the Bernini and Borromini landmarks across the city"
               width={700}
-              height={500}
+              height={495}
+              sizes="(max-width: 768px) 100vw, 700px"
               className="w-full h-auto object-cover"
               priority
             />
           </div>
           <div className="absolute -bottom-4 -right-4 bg-terracotta text-white rounded-2xl px-4 py-3 shadow-lg">
-            <div className="font-serif text-lg font-bold">Foro Romano</div>
-            <div className="text-xs opacity-80">Illustrated neighborhood guide</div>
+            <div className="font-serif text-lg font-bold">Great Rivalry</div>
+            <div className="text-xs opacity-80">in Rome</div>
           </div>
         </div>
       </div>
